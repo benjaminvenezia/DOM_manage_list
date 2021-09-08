@@ -1,4 +1,5 @@
-const btns = document.querySelectorAll('#book-list ul li .delete');
+document.addEventListener('DOMContentLoaded', () => {
+//const btns = document.querySelectorAll('#book-list ul li .delete');
 //méthode trop coûtese, on attache
 //un événement par bouton. 
 // btns.forEach(btn => {
@@ -91,3 +92,5 @@ tabs.addEventListener('click', (e)=>{
         })
     }
 }) 
+})
+
